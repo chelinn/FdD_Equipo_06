@@ -35,7 +35,7 @@ Nos interesa trabajar en los siguientes **Objetivos de Desarrollo Sostenible (OD
 | <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Jeral Cueva** | ----- | --- |
 | <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Jose Ccencho** | --- | --- |
 | <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Kiara Aragon** | ---- | ---- |
-| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Ithan De la Cruz** | Encargado de Documentación | ---- |
+| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Ithan De la Cruz** | --- | ---- |
 =======
 | <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Jeral Cueva** | Programdor | --- |
 | <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Jose Ccencho** | Diseñador | --- |
