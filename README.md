@@ -26,11 +26,11 @@ Nos interesa trabajar en los siguientes **Objetivos de Desarrollo Sostenible (OD
 
 | Foto | Nombre | Rol | Intereses |
 |------|--------|-----|-----------|
-| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Diego Murga** | Líder del equipo | --- |
-| <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Jeral Cueva** | ----- | --- |
-| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Jose Ccencho** | --- | --- |
-| <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Kiara Aragon** | ---- | ---- |
-| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Ithan De la Cruz** | --- | ---- |
+| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Diego Murga** | Líder del equipo | Innovación social, sostenibilidad |
+| <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Jeral Cueva** | Programador y Modelador | Programación y Simulación |
+| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Jose Ccencho** | Investigación | Redacción técnica |
+| <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Kiara Aragon** | Responsable de investigación | Gestión ambiental |
+| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Ithan De la Cruz** | Diseño | Diseño de prototipos, creatividad aplicada |
 
 ---
 
