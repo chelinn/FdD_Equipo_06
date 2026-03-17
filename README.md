@@ -9,7 +9,11 @@ Somos el **Equipo 06** del curso **Fundamentos de Diseño 2026-1**, conformado p
 Nuestro objetivo es aplicar la metodología de diseño para generar soluciones innovadoras con impacto social, tecnológico y ambiental.  
 
 Nos interesa trabajar en los siguientes **Objetivos de Desarrollo Sostenible (ODS):**  
-- ODS 3: Salud y Bienestar  
+- ODS 3: Salud y Bienestar
+- ODS 9: Industria, Innovación e Infraestructura
+- ODS 11: Ciudades y Comunidades Sostenibles
+- ODS 13: Acción por el Clima
+
 
 
 ---
@@ -27,10 +31,17 @@ Nos interesa trabajar en los siguientes **Objetivos de Desarrollo Sostenible (OD
 | Foto | Nombre | Rol | Intereses |
 |------|--------|-----|-----------|
 | <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Diego Murga** | Líder del equipo | --- |
+<<<<<<< HEAD
+| <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Jeral Cueva** | ----- | --- |
+| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Jose Ccencho** | --- | --- |
+| <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Kiara Aragon** | ---- | ---- |
+| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Ithan De la Cruz** | Encargado de Documentación | ---- |
+=======
 | <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Jeral Cueva** | Programdor | --- |
 | <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Jose Ccencho** | Diseñador | --- |
 | <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Kiara Aragon** | Investigación | ---- |
-| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Ithan De la Cruz** |  | ---- |
+| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Ithan De la Cruz** | Documentación  | ---- |
+>>>>>>> 713b55c6f9a8624f683c13554d0d89aab6137ade
 
 ---
 
