@@ -10,9 +10,9 @@ Nuestro objetivo es aplicar la metodología de diseño para generar soluciones i
 
 Nos interesa trabajar en los siguientes **Objetivos de Desarrollo Sostenible (ODS):**  
 - ODS 7: Energía asequible y no contaminante
-  <img src="Recursos/Imágenes/ODS7.gif" alt="ODS 7" width="100">
+  <br><img src="Recursos/Imágenes/ODS7.gif" alt="ODS 7" width="150">
 - ODS 11: Ciudades y Comunidades Sostenibles
-  <img src="Recursos/Imágenes/ODS11.gif" alt="ODS 11" width="100">
+  <br><img src="Recursos/Imágenes/ODS11.gif" alt="ODS 11" width="150">
 
 ---
 
