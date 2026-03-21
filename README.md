@@ -26,8 +26,7 @@ Nos interesa trabajar en los siguientes **Objetivos de Desarrollo Sostenible (OD
 
 | Foto | Nombre | Rol | Intereses |
 |------|--------|-----|-----------|
-| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Diego Alessandre Murga Saavedra
-diego.murga@upch.pe** | Líder del equipo | Innovación social, sostenibilidad |
+| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Diego Alessandre Murga Saavedra<br>diego.murga@upch.pe** | Líder del equipo | Innovación social, sostenibilidad |
 | <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Jeral Cueva** | Programador y Modelador | Programación y Simulación |
 | <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Jose Ccencho** | Investigación | Redacción técnica |
 | <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Kiara Aragon** | Responsable de investigación | Gestión ambiental |
