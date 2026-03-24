@@ -18,7 +18,7 @@ Nos interesa trabajar en los siguientes **Objetivos de Desarrollo Sostenible (OD
 
 ## 📸 Fotografía del Equipo  
 <p align="center">
-<img width="1408" height="768" alt="imagen_alumnos_IA" src="https://github.com/user-attachments/assets/3829718f-51c7-4d00-b262-ef37f178f059" />
+<img width="1408" height="768" alt="Equipo06" src="/Recursos/Imágenes/Grupo06.jpeg" />
   <em>Figura 1. Fotografía del equipo 06</em>
 </p>
 
@@ -28,7 +28,7 @@ Nos interesa trabajar en los siguientes **Objetivos de Desarrollo Sostenible (OD
 
 | Foto | Nombre | Rol | Intereses
 |------|--------|-----|-----------|
-| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Diego Alessandre Murga Saavedra <br>diego.murga@upch.pe** | Líder del equipo/Electrónico | Innovación social, sostenibilidad, electrónica |
+| <img src="/Recursos/Imágenes/DiegoMurga.jpeg" width="90"/> | **Diego Alessandre Murga Saavedra <br>diego.murga@upch.pe** | Líder del equipo/Electrónico | Innovación social, sostenibilidad, electrónica |
 | <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Jeral Alexander Cueva Zapata <br>jeral.cueva@upch.pe** | Programador/Modelador | Desarrollo de software, modelado 3D, simulación de sistemas |
 | <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **José Luis Ccencho López <br>jose.ccencho@upch.pe** | Gestor de operaciones/Procesos | Eficiencia, costos/beneficios, logística |
 | <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Kiara Aragon** | Responsable de investigación | Gestión ambiental, desarrollo comunitario |
