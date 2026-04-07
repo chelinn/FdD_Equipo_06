@@ -72,7 +72,7 @@ https://worldwide.espacenet.com/patent/search/family/046179249/publication/ES274
   - H02J7/00
  
 - **IMAGEN:**
-  <br><img src=".../../Recursos/Imágenes/Taller4_img3.png" alt="PATENTE 3" width="200">
+  <br><img src="../../Recursos/Imágenes/Taller4_img3.png" alt="PATENTE 3" width="200">
 
 
 ### Resumen  
