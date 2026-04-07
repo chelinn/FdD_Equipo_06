@@ -16,7 +16,7 @@
  
 - **IMAGEN:**
 
-<img src="../../Recursos/Imagenes/Taller4_img1.png" alt="PATENTE 1" width="200">
+<img src="../../Recursos/Imagenes/Taller4_img1.png" width="200">
 
 ### Resumen  
 La invención se refiere a un método para monitorizar una estructura de almacenamiento excavada en tierra congelada. El método comprende:  
