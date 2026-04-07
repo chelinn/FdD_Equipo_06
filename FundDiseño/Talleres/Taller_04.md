@@ -15,7 +15,7 @@
   - F17C3/00
  
 - **IMAGEN:**
-  <br><img src="Recursos/Imágenes/Taller4_img1.png" alt="ODS 7" width="200">
+  <br><img src="Recursos/Imágenes/Taller4_img1.png" alt="PATENTE 1" width="200">
 
 ### Resumen  
 La invención se refiere a un método para monitorizar una estructura de almacenamiento excavada en tierra congelada. El método comprende:  
@@ -38,7 +38,7 @@ https://worldwide.espacenet.com/patent/search/family/047022786/publication/WO201
   - A01G25/16
  
 - **IMAGEN:**
-  <br><img src="Recursos/Imágenes/Taller4_img2.png" alt="ODS 7" width="200">
+  <br><img src="Recursos/Imágenes/Taller4_img2.png" alt="PATENTE 2" width="200">
 
 
 ### Resumen  
@@ -72,7 +72,7 @@ https://worldwide.espacenet.com/patent/search/family/046179249/publication/ES274
   - H02J7/00
  
 - **IMAGEN:**
-  <br><img src="Recursos/Imágenes/Taller4_img3.png" alt="ODS 7" width="200">
+  <br><img src="Recursos/Imágenes/Taller4_img3.png" alt="PATENTE 3" width="200">
 
 
 ### Resumen  
