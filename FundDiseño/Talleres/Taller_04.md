@@ -12,7 +12,10 @@
   - G06F15/82  
   - F17C13/02  
   - F17C13/08  
-  - F17C3/00  
+  - F17C3/00
+ 
+- **IMAGEN:**
+  <br><img src="Recursos/Imágenes/Taller4_img1.png" alt="ODS 7" width="200">
 
 ### Resumen  
 La invención se refiere a un método para monitorizar una estructura de almacenamiento excavada en tierra congelada. El método comprende:  
@@ -32,7 +35,11 @@ https://worldwide.espacenet.com/patent/search/family/047022786/publication/WO201
 - **Número de publicación:** ES2749458T3  
 - **CIP:**  
   - A01B79/00  
-  - A01G25/16  
+  - A01G25/16
+ 
+- **IMAGEN:**
+  <br><img src="Recursos/Imágenes/Taller4_img2.png" alt="ODS 7" width="200">
+
 
 ### Resumen  
 El proyecto describe un dispositivo inteligente que automatiza el cuidado de las plantas mediante la medición de variables como:  
@@ -62,7 +69,11 @@ https://worldwide.espacenet.com/patent/search/family/046179249/publication/ES274
 - **CIP:**  
   - G01K7/00  
   - G01N27/02  
-  - H02J7/00  
+  - H02J7/00
+ 
+- **IMAGEN:**
+  <br><img src="Recursos/Imágenes/Taller4_img3.png" alt="ODS 7" width="200">
+
 
 ### Resumen  
 El proyecto presenta un dispositivo para medir múltiples parámetros del suelo mediante una varilla hueca que integra sensores a diferentes profundidades.  
