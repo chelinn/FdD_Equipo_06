@@ -1,0 +1,224 @@
+// ============================================================
+// Sistema de Base de Datos - Especies Vegetales para Reforestación
+// Arquitectura: SQLite + Prisma ORM (escalable a PostgreSQL)
+// ============================================================
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// ============================================================
+// MODELO PRINCIPAL: Especies Vegetales
+// Almacena la información taxonómica y general de cada especie
+// ============================================================
+model PlantSpecies {
+  id            String   @id @default(cuid())
+  scientificName String  @unique                    // Nombre científico (ej: "Cedrela odorata")
+  commonName     String?                             // Nombre común (ej: "Cedro")
+  family         String?                             // Familia botánica (ej: "Meliaceae")
+  genus          String?                             // Género (ej: "Cedrela")
+  species        String?                             // Epíteto específico (ej: "odorata")
+  authority      String?                             // Autoridad taxonómica (ej: "L.")
+  description    String?                             // Descripción morfológica/general
+  lifeForm       String?                             // Forma de vida: "Árbol", "Arbusto", "Herbácea"
+  growthHabit    String?                             // Hábito de crecimiento: "Perenne", "Caducifolio"
+  nativeRegion   String?                             // Región de origen: "América Tropical"
+  uses           String?                             // Usos principales (JSON string: ["madera","medicinal"])
+  conservationStatus String?                         // Estado de conservación: "LC", "NT", "VU", "EN", "CR"
+  gbifId         Int?                                // ID en GBIF para integración API
+  tropicosId     String?                             // ID en TROPICOS (Missouri Botanical Garden)
+  iucnId         String?                             // ID en IUCN Red List
+  imageUrl       String?                             // URL de imagen referencial
+  isActive       Boolean  @default(true)             // Registro activo
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  // Relaciones 1:1 con requerimientos de suelo, clima y ubicación
+  soilRequirement   SoilRequirement?
+  climateRequirement ClimateRequirement?
+  locationParameter LocationParameter?
+
+  // Registros de datos obtenidos de APIs externas
+  apiDataRecords    ApiDataRecord[]
+
+  // Registros de observaciones en campo
+  fieldObservations FieldObservation[]
+
+  @@index([scientificName])
+  @@index([family])
+  @@index([conservationStatus])
+  @@map("plant_species")
+}
+
+// ============================================================
+// PARÁMETROS DEL SUELO - Requerimientos óptimos por especie
+// ============================================================
+model SoilRequirement {
+  id              String   @id @default(cuid())
+  plantId         String   @unique
+  plant           PlantSpecies @relation(fields: [plantId], references: [id], onDelete: Cascade)
+
+  phMin           Float?   
+  phMax           Float?   
+  phOptimal       Float?   
+
+  organicCarbonMin    Float?   
+  organicCarbonMax    Float?   
+  organicCarbonOptimal Float?  
+
+  nitrogenMin     Float?   
+  nitrogenMax     Float?   
+  nitrogenOptimal Float?   
+
+  phosphorusMin     Float?  
+  phosphorusMax     Float?  
+  phosphorusOptimal Float?  
+
+  potassiumMin     Float?   
+  potassiumMax     Float?   
+  potassiumOptimal Float?   
+
+  moistureMin     Float?    
+  moistureMax     Float?    
+  moistureOptimal Float?    
+
+  sandMin         Float?    
+  sandMax         Float?    
+  siltMin         Float?    
+  siltMax         Float?    
+  clayMin         Float?    
+  clayMax         Float?    
+  textureClass    String?   
+
+  organicMatterMin    Float? 
+  organicMatterMax    Float? 
+  organicMatterOptimal Float? 
+
+  cecMin          Float?    
+  cecMax          Float?    
+  cecOptimal      Float?    
+
+  dataSource      String?   
+  confidence      String?   @default("medium") 
+  notes           String?   
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  @@map("soil_requirements")
+}
+
+// ============================================================
+// PARÁMETROS CLIMÁTICOS
+// ============================================================
+model ClimateRequirement {
+  id              String   @id @default(cuid())
+  plantId         String   @unique
+  plant           PlantSpecies @relation(fields: [plantId], references: [id], onDelete: Cascade)
+
+  tempMin         Float?    
+  tempMax         Float?    
+  tempOptimal     Float?    
+  tempMinAbs      Float?    
+  tempMaxAbs      Float?    
+
+  precipMin       Float?    
+  precipMax       Float?    
+  precipOptimal   Float?    
+
+  altMin          Float?    
+  altMax          Float?    
+  altOptimal      Float?    
+
+  solarRadMin     Float?    
+  solarRadMax     Float?    
+  solarRadOptimal Float?    
+
+  lifeZone        String?   
+  koppenZone      String?   
+  droughtTolerance String?  
+
+  dataSource      String?   
+  confidence      String?   @default("medium")
+  notes           String?   
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  @@map("climate_requirements")
+}
+
+// ============================================================
+// PARÁMETROS DE UBICACIÓN
+// ============================================================
+model LocationParameter {
+  id              String   @id @default(cuid())
+  plantId         String   @unique
+  plant           PlantSpecies @relation(fields: [plantId], references: [id], onDelete: Cascade)
+
+  slopeMin        Float?    
+  slopeMax        Float?    
+  slopeOptimal    Float?    
+
+  latMin          Float?    
+  latMax          Float?    
+  lonMin          Float?    
+  lonMax          Float?    
+  latCenter       Float?    
+  lonCenter       Float?    
+
+  habitatType     String?   
+  drainageClass   String?   
+
+  dataSource      String?   
+  confidence      String?   @default("medium")
+  notes           String?   
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  @@map("location_parameters")
+}
+
+model ApiDataRecord {
+  id              String   @id @default(cuid())
+  plantId         String
+  plant           PlantSpecies @relation(fields: [plantId], references: [id], onDelete: Cascade)
+
+  source          String                           
+  endpoint        String                           
+  requestParams   String                           
+  responseData    String                           
+  statusCode      Int?                             
+  fetchedAt       DateTime  @default(now())        
+  isValid         Boolean   @default(true)         
+  validationNotes String?                          
+
+  @@index([source])
+  @@index([plantId])
+  @@map("api_data_records")
+}
+
+model FieldObservation {
+  id              String   @id @default(cuid())
+  plantId         String
+  plant           PlantSpecies @relation(fields: [plantId], references: [id], onDelete: Cascade)
+
+  observer        String?                          
+  location        String?                          
+  latitude        Float?                           
+  longitude       Float?                           
+  altitude        Float?                           
+  observationDate DateTime?                        
+  soilPh          Float?                           
+  soilMoisture    Float?                           
+  soilTemp        Float?                           
+  notes           String?                          
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  @@index([plantId])
+  @@map("field_observations")
+}
