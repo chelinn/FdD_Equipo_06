@@ -1,4 +1,4 @@
-# Patentes
+ # Patentes
 
 ## 1. WO2014001679A2  
 ### Método y dispositivo para el monitoreo de parámetros de almacenamiento
@@ -29,36 +29,25 @@ https://worldwide.espacenet.com/patent/search/family/047022786/publication/WO201
 
 ---
 
-## 2. ES2749458T3  
-### Dispositivo de control para la gestión del cultivo de plantas
+## 2. WO2025024900A1
+### Sistemas Y Métodos para el monitor de cultivos
 
 - **Número de publicación:** ES2749458T3  
 - **CIP:**  
-  - A01B79/00  
   - A01G25/16
+  - G01N33/00
+  - G01N33/24
+  - G06Q50/02
  
 - **IMAGEN:**
   <br><img src="../../Recursos/Imágenes/Taller4_img2.png" alt="PATENTE 2" width="200">
 
 
 ### Resumen  
-El proyecto describe un dispositivo inteligente que automatiza el cuidado de las plantas mediante la medición de variables como:  
-- Humedad  
-- Temperatura  
-- Luz  
-- Nivel de abono  
-
-Características principales:  
-- Módulos interconectados que analizan datos.  
-- Capacidad de aprendizaje basada en usos previos.  
-- Ejecución automática de acciones como riego e iluminación.  
-- Comunicación con otros dispositivos y con el usuario.  
-- Instalación parcialmente enterrada con sensores en suelo y aire.  
-
-Su objetivo es optimizar el mantenimiento y crecimiento de los cultivos de manera automática.  
+Esta publicación describe sistemas y métodos para el monitoreo de cultivos que combinan sensores ambientales y del suelo (por ejemplo: humedad, temperatura, radiación) con datos adicionales para calcular índices, como el índice de estrés por transpiración, que pueden ayudar a gestionar el riego y otros aspectos de cultivos. La invención integra un conjunto de sensores y módulos de datos que capturan mediciones físicas del entorno y de las plantas y calcula parámetros predictivos para apoyar decisiones de manejo de cultivos o respuesta automática.  
 
 ### Enlace  
-https://worldwide.espacenet.com/patent/search/family/046179249/publication/ES2749458T3?q=ES2749458T3  
+https://worldwide.espacenet.com/patent/search/family/094392976/publication/WO2025024900A1?q=WO2025024900A1
 
 ---
 
