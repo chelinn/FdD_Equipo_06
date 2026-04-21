@@ -9,23 +9,35 @@ Somos el **Equipo 06** del curso **Fundamentos de Diseño 2026-1**, conformado p
 Nuestro objetivo es aplicar la metodología de diseño para generar soluciones innovadoras con impacto social, tecnológico y ambiental.  
 
 Nos interesa trabajar en los siguientes **Objetivos de Desarrollo Sostenible (ODS):**  
-- ODS 7: Energía asequible y no contaminante
-  <br><img src="Recursos/Imágenes/ODS7.gif" alt="ODS 7" width="200">
 - ODS 11: Ciudades y Comunidades Sostenibles
   <br><img src="Recursos/Imágenes/ODS11.gif" alt="ODS 11" width="200">
+- ODS 13: Acción por el clima
+  <br><img src="Recursos/Imágenes/ODS13.gif" alt="ODS 13" width="200">
+- ODS 15: Vida de ecosistemas terrestres
+  <br><img src="Recursos/Imágenes/ODS15.gif" alt="ODS 15" width="200">
+
 
 ---
 
 ## 💦 Nuestra Problemática
 La degradación de los suelos y la pérdida de biodiversidad en áreas urbanas y periurbanas constituyen una problemática ambiental creciente que limita la sostenibilidad de las ciudades y la recuperación de los ecosistemas. En regiones con clima árido, como ocurre en Lima Metropolitana, las condiciones climáticas se caracterizan por precipitaciones escasas, alta radiación solar y una marcada variabilidad térmica, factores que influyen directamente en la formación y calidad de los suelos (1).
+
 En la costa central del Perú, los suelos presentan comúnmente una elevada proporción de arena, bajos niveles de materia orgánica y limitaciones en la retención de agua, lo que afecta la disponibilidad de nutrientes esenciales para el desarrollo vegetal. Estudios edafológicos realizados en valles costeros peruanos demuestran que parámetros como la textura, el pH y la conductividad eléctrica condicionan de manera significativa la capacidad del suelo para sostener cobertura vegetal, haciendo indispensable su caracterización detallada (2).
+
 La degradación progresiva de los suelos en zonas áridas está estrechamente vinculada a procesos de desertificación, los cuales reducen la productividad biológica y la estabilidad de los ecosistemas. A nivel global, se ha reconocido que la reforestación y la restauración ecológica constituyen estrategias fundamentales para mitigar estos procesos, siempre que se basen en un conocimiento científico sólido sobre el funcionamiento de los ecosistemas de tierras secas (3).
+
 En este sentido, experiencias de reforestación a gran escala desarrolladas en ambientes áridos han demostrado que la restauración puede mejorar las propiedades físicas y químicas del suelo, además de incrementar la captura de carbono y la resiliencia ecológica. Proyectos como los implementados en regiones desérticas han evidenciado resultados positivos cuando se combinan técnicas adecuadas de manejo del suelo con una selección apropiada de especies vegetales (4).
+
 No obstante, la efectividad de los proyectos de reforestación depende en gran medida de la correcta selección de especies, considerando la relación suelo–planta. Desde esta perspectiva, es fundamental evaluar la compatibilidad entre las características edáficas del suelo y los requerimientos fisiológicos de las plantas, ya que dicha relación determina su capacidad de adaptación, supervivencia y desarrollo en suelos de baja fertilidad (5).
+
 Las limitaciones propias de los ecosistemas áridos se explican también por su distribución y dinámica a escala global. Estudios sobre la biogeografía de las tierras secas señalan que estos ecosistemas presentan una alta vulnerabilidad frente a la degradación, lo que exige estrategias de restauración específicas y adaptadas a las condiciones locales de clima y suelo (6).
+
 Diversas investigaciones han demostrado que la restauración ecológica puede mejorar la calidad del suelo mediante el incremento de la materia orgánica, la estabilidad estructural y la capacidad de retención hídrica. Sin embargo, estos beneficios dependen de un monitoreo constante de los parámetros edáficos, así como de una adecuada planificación de las intervenciones de reforestación (7).
+
 En el contexto peruano, los proyectos de reforestación han resaltado la importancia de realizar diagnósticos detallados del suelo antes de su implementación. Estos diagnósticos permiten seleccionar especies forestales compatibles con las condiciones edáficas y climáticas del área de intervención, aumentando la probabilidad de éxito de los proyectos (8).
+
 Frente a estas necesidades, el uso de tecnologías basadas en sensores inteligentes ha cobrado relevancia en el monitoreo de suelos, permitiendo la obtención de datos en tiempo real sobre variables físicas y químicas como la humedad, la temperatura y el pH. Estas herramientas facilitan una toma de decisiones más precisa y eficiente en proyectos de restauración y reforestación, especialmente en ambientes áridos (9).
+
 Ante este escenario, el presente proyecto propone el desarrollo de un sistema inteligente orientado a la reforestación de áreas con suelos de baja fertilidad en Lima Metropolitana, alineado con los Objetivos de Desarrollo Sostenible (ODS) 11, 13 y 15, los cuales promueven el desarrollo de ciudades sostenibles y resilientes, la acción frente al cambio climático y la protección, restauración y uso responsable de los ecosistemas terrestres (10). El sistema permitirá recopilar y analizar parámetros edáficos y ambientales del suelo, comparándolos con los requerimientos de especies vegetales almacenados en una base de datos especializada, con el fin de determinar su compatibilidad y contribuir a procesos de reforestación más eficientes y sostenibles en zonas urbanas de clima árido.
 
 
