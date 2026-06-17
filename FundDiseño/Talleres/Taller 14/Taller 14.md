@@ -103,42 +103,33 @@ Materiales:
 #include <BluetoothSerial.h>
 #include <ESP32Servo.h>
 
-
-BluetoothSerial BT;
+BluetoothSerial SerialBT;
 Servo servo1;
 
-
 void setup() {
+
   Serial.begin(115200);
 
+  SerialBT.begin("ESP32_SERVO");
 
-  servo1.attach(18);
-  servo1.write(90);
-
-
-  BT.begin("SERVO");
-  Serial.println("Bluetooth OK");
+  servo1.attach(18);   
+  servo1.write(90);    
 }
-
 
 void loop() {
 
+  if (SerialBT.available()) {
 
-  if (BT.available()) {
+    String dato = SerialBT.readString();
 
-
-    String val_str = BT.readString();
-
-
-    int angulo = val_str.toInt();
-
-
-    Serial.print("Angulo recibido: ");
-    Serial.println(angulo);
-
+    int angulo = dato.toInt();
 
     if (angulo >= 0 && angulo <= 270) {
+
       servo1.write(angulo);
+
+      Serial.print("Angulo recibido: ");
+      Serial.println(angulo);
     }
   }
 }
@@ -147,27 +138,23 @@ void loop() {
 
 ## Explicación código del ESP32 
 
-
-- Se incluyen las librerías para Bluetooth y para controlar el servo.
-- En el `setup()`: se conecta el servo al pin 18, se pone en 90° de inicio, y se activa el Bluetooth con el nombre "SERVO".
-- En el `loop()`: el ESP32 está esperando que llegue un mensaje por Bluetooth.
-- Cuando llega un mensaje, lo convierte a número (`toInt()`) y lo muestra en el monitor serie.
-- Si ese número está entre 0 y 270, mueve el servo a ese ángulo.
+- Se incluyen las librerías de Bluetooth y de servo.
+- En el `setup()`: se activa el Bluetooth con el nombre "ESP32_SERVO", se conecta el servo al pin 18 y se pone en 90° de inicio.
+- En el `loop()`: si llega un dato por Bluetooth, lo convierte a número.
+- Si ese número está entre 0 y 270, mueve el servo a ese ángulo y lo muestra en el monitor serie.
 
 
 ## Códico de bloques
+![alt text](servo2.png)
 
-![alt text](servo.png)
+![alt text](bloques_servo2.png)
 
+![alt text](app_servo2.1.png)
 
-![alt text](bloques_servo.png)
-
-
-![alt text](app_servo.png)
 
 ## Bloques de App Inventor
 
+- **`BeforePicking`**: llena la lista con los dispositivos Bluetooth disponibles.
+- **`AfterPicking`**: se conecta al dispositivo elegido y avisa si conectó o no.
+- **`mover_servo.PositionChanged`**: este bloque se activa solo, cada vez que el usuario mueve el slider llamado `mover_servo`. Si está conectado por Bluetooth, envía automáticamente la posición del slider (`thumbPosition`) al ESP32.
 
-- **Cuando se abre la lista de Bluetooth (`BeforePicking`)**: la app busca los dispositivos Bluetooth emparejados y los pone en la lista para elegir.
-- **Cuando el usuario elige un dispositivo (`AfterPicking`)**: la app intenta conectarse a ese dispositivo. Si se conecta bien, muestra "Conectado Exitosamente"; si no, muestra "No se pudo conectar".
-- **Cuando se presiona el botón de enviar (`BtnEnviar.Click`)**: si ya está conectado, la app toma el texto que es el ángulo del servo  y lo envía por Bluetooth al ESP32.
