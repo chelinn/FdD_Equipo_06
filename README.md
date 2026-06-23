@@ -66,7 +66,7 @@ Referencias bibliográficas:
 
 ## 📸 Fotografía del Equipo  
 <p align="center">
-<img width="1408" height="768" alt="Equipo06" src="/Recursos/Imágenes/Grupo06.jpeg" />
+<img width="1408" height="768" alt="Equipo06" src="/Recursos/Imágenes/Grupo06.jpg" />
   <em>Figura 1. Fotografía del equipo 06</em>
 </p>
 
